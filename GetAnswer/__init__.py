@@ -11,10 +11,10 @@ import time
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
-    subscription_id = "52c47fda-2dd0-429a-a46c-62173b26a70f"
-    resource_group = "Ai-PoC"
-    workspace = "gep-aipoc-azureml"
-    endpoint_name = "gep-aipoc-endpoint"
+    subscription_id = "xxx"
+    resource_group = "xxx"
+    workspace = "xxx"
+    endpoint_name = "xxx"
     ml_client = MLClient(
         DefaultAzureCredential(), subscription_id, resource_group, workspace
     )
